@@ -1,0 +1,11 @@
+{
+  "name": "disboard-auto-bumper",
+  "version": "1.0.0",
+  "description": "Disboard auto bumper using raw WebSocket",
+  "main": "bump.js",
+  "scripts": {
+    "start": "node bump.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "dotenv": "^16.3.1"
